@@ -4,6 +4,8 @@ The Dymo LetraTag 200B is a Bluetooth label printer that comes with an iOS and A
 
 ## Usage
 
+Use the MAC address printed on the back of the printer. Since the printer uses pixels that are twice as high as they are wide, the aspect ratio of the image is automatically adjusted.
+
 ```
 python print.py --address aa:bb:cc:dd:ee:ff --image hello.png
 ```
