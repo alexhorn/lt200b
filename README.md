@@ -8,4 +8,5 @@ Use the MAC address printed on the back of the printer. Since the printer uses p
 
 ```
 python print.py --address aa:bb:cc:dd:ee:ff --image hello.png
+python print.py --address aa:bb:cc:dd:ee:ff --text "Hello World"
 ```
